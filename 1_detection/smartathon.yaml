@@ -1,0 +1,19 @@
+path:  ./yolo5_dataset
+train: train/
+val: val/
+#test: test.csv
+
+nc: 11
+
+names:
+  0: GRAFFITI
+  1: FADED_SIGNAGE
+  2: POTHOLES
+  3: GARBAGE
+  4: CONSTRUCTION_ROAD
+  5: BROKEN_SIGNAGE
+  6: BAD_STREETLIGHT
+  7: BAD_BILLBOARD
+  8: SAND_ON_ROAD
+  9: CLUTTER_SIDEWALK
+  10: UNKEPT_FACADE
